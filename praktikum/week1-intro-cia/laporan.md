@@ -30,8 +30,22 @@ Mesin yang dikembangkan oleh oran jerman Arthur Scherbius sebagai penemu mesin i
 #### RSA
 Sebuah algoritma yang ditemukan oleh Ron Rivest, Andi Shamir, dan Leonardo Adleman. metode ini memiliki dua kunci, privat dan public. metode ini menarik karena kunci disebarluaskan. siapapun dapat mengetahui kunci dan menggunaakanya. singkatnya gini, ibarat memiliki sebuah gembok dan kuncinya. kemudian kunci disimpan dan gembok disebarluaskan. gembok ini bebas dicopy. ketika gembok ini digunakan untuk mengunci sesuatu hanya pemilik kunci yang bisa membukanya. yang aku tangkap kunci publik dihasilkan dari kunci privat. dan kunci publuk ini digunakn untuk mengunci brankas atau file. tapi tidak bisa untuk membuka kunci. hanya menggunakan kunci privat untuk bisa membukanya.
 
-### kurang penjelasan dan cara/motodenya
-### Penjelasan CIA
+### CIA
+#### Confidentiality (Kerahasiaan)
+**Penjelasan:**
+Menjaga agar data hanya dapat diakses oleh pihak yang berwenang dan mencegah akses oleh pihak yang tidak berhak.
+**Contoh:**
+>**Penerapan pengiriman pesan end to end seperti whatsApp.** Hanya pengirim dan penerima yang bisa membaca isi pesan. Bahkan WhatsApp atau pihak ketiga (termasuk peretas) tidak dapat mengakses konten percakapan tersebut. 
+#### Integrity (Integritas)
+**Penjelasan:**
+Memastikan bahwa data tidak diubah, dihapus, atau dirusak secara tidak sah selama disimpan, diproses, atau dikirim.
+**Contoh:**
+>**Penerapan signature dan hase pada sistem perbankan** untuk verefikasi transaksi. Misalnya, saat Anda mentransfer uang, sistem memastikan jumlah dan rekening tujuan tidak diubah di tengah jalan oleh peretas. Jika ada perubahan, transaksi akan ditolak.
+#### Availability (Ketersediaan)
+**Penjelasan:**
+Menjamin bahwa sistem, layanan, dan data tersedia dan dapat diakses oleh pengguna sah kapan pun dibutuhkan.
+**Contoh:**
+>**Sistem e-commerce seperti Tokopedia dan Shopee menggunakan sever cadangan dan proteksi DDoS** Saat ada lonjakan pengunjung di masa promo (misalnya Harbolnas), sistem tetap berjalan lancar dan tidak down, sehingga pelanggan tetap bisa berbelanja.
 
 ---
 
@@ -82,8 +96,7 @@ Hasil eksekusi program Caesar Cipher:
 (Jawab pertanyaan diskusi yang diberikan pada modul.  
 - Pertanyaan 1: Leon Battista Alberti  
 - Pertanyaan 2: RSA, AES, ECC 
-- Pertanyaan 3: kompleksitasnya, karena perkembangan teknologi yang semakin cepat diperlukan pula keamanan yang berlapis. berbeda ketika dengan metode klasik—dikarenakan keperluan dan keterbatasan pengatahuan manusia. 
-)
+- Pertanyaan 3: kompleksitasnya, karena perkembangan teknologi yang semakin cepat diperlukan pula keamanan yang berlapis. berbeda ketika dengan metode klasik—dikarenakan keperluan dan keterbatasan pengatahuan manusia.)
 ---
 
 ## 8. Kesimpulan
