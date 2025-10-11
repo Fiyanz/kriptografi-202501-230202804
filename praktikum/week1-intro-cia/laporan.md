@@ -112,8 +112,8 @@ Contoh:
 Contoh:
 ```
 commit abc12345
-Author: Nama Mahasiswa <email>
+Author: Bagus Alfiyan Yusuf <email>
 Date:   2025-09-20
 
-    week2-cryptosystem: implementasi Caesar Cipher dan laporan )
+    week1-cia: Rangkum sejarah kriptografi, CIA dan laporan )
 ```
