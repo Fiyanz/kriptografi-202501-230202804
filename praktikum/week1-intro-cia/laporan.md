@@ -78,17 +78,12 @@ def encrypt(text, key):
 ```
 
 ## 6. Hasil dan Pembahasan
-(- Lampirkan screenshot hasil eksekusi program (taruh di folder `screenshots/`).  
-- Berikan tabel atau ringkasan hasil uji jika diperlukan.  
-- Jelaskan apakah hasil sesuai ekspektasi.  
-- Bahas error (jika ada) dan solusinya. 
+- Lampirkan screenshot hasil eksekusi program (taruh di folder `screenshots/`.  
+- Hasil commit message 
 
-Hasil eksekusi program Caesar Cipher:
+Hasil:
 
-![Hasil Eksekusi](screenshots/output.png)
-![Hasil Input](screenshots/input.png)
-![Hasil Output](screenshots/output.png)
-)
+![Hasil Eksekusi](/praktikum/week1-intro-cia/screenshots/commit-message.png)
 
 ---
 
@@ -100,7 +95,7 @@ Hasil eksekusi program Caesar Cipher:
 ---
 
 ## 8. Kesimpulan
-(Tuliskan kesimpulan singkat (2–3 kalimat) berdasarkan percobaan.  )
+keamanan sangat diperlukan dan sangat menarik untuk dipelajari lebih dalam.
 
 ---
 
