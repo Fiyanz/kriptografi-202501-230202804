@@ -1,9 +1,9 @@
 # Laporan Praktikum Kriptografi
-Minggu ke-: X  
-Topik: [judul praktikum]  
-Nama: [Nama Mahasiswa]  
-NIM: [NIM Mahasiswa]  
-Kelas: [Kelas]  
+Minggu ke-: 2  
+Topik: Impelentasi Algoritma Caesar Chiper dan kriptosistem  
+Nama: Bagus Alfiyan Yusuf  
+NIM: 230202804 
+Kelas: 5IKRA  
 
 ---
 
@@ -32,6 +32,11 @@ Contoh format:
 1. Membuat file `caesar_cipher.py` di folder `praktikum/week2-cryptosystem/src/`.
 2. Menyalin kode program dari panduan praktikum.
 3. Menjalankan program dengan perintah `python caesar_cipher.py`.)
+#### Diagram Kriptosistem
+**Ekripsi:**
+![Enctyption](screenshots/encryption.avif)
+**Dekripsi:**
+![Decrypion](screenshots/decrypion.avif )
 
 ---
 
@@ -40,11 +45,38 @@ Contoh format:
 Gunakan blok kode:
 
 ```python
-# contoh potongan kode
-def encrypt(text, key):
-    return ...
+def caesar_chiper(plainchiper: str, key: int, mode: str) -> str:
+    """
+    parameter:
+        plainchiper: input plaintext or chipertext
+        key: pergeseran yang diingikan
+        mode: "enc" enkripsi, "dec" dekripssi
+    """
+    if mode not in ("enc", "dec"):
+        raise ValueError("Mode harus 'enc' atau 'dec'")
+
+    result = ""
+    key = key if mode == "enc" else (-key if mode == "dec" else key)
+    for char in plainchiper:
+        if char.isalpha():
+            shift = 65 if char.isupper() else 97
+            result += chr((ord(char) - shift + key) % 26 + shift)
+        else:
+            result += char
+    return result
+
+
+if __name__ == "__main__":
+    text = "Bagus Alfiyan Yusuf 230202804"
+    key = 6
+
+    enc_cc = caesar_chiper(plainchiper=text, key=key, mode="enc")
+    dec_cc = caesar_chiper(plainchiper=enc_cc, key=key, mode="dec")
+
+    print(f"Text Asli: {text}")
+    print(f"Text Enkripsi: {enc_cc}")
+    print(f"Text Dekripsi: {dec_cc}")
 ```
-)
 
 ---
 
@@ -56,9 +88,9 @@ def encrypt(text, key):
 
 Hasil eksekusi program Caesar Cipher:
 
-![Hasil Eksekusi](screenshots/output.png)
-![Hasil Input](screenshots/input.png)
-![Hasil Output](screenshots/output.png)
+![Hasil Eksekusi](screenshots/output_program.png)
+Input:
+![Hasil Input](screenshots/input_program.png)
 )
 
 ---
