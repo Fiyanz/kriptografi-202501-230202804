@@ -38,6 +38,17 @@ Contoh format:
 **Dekripsi:**
 ![Decrypion](screenshots/decrypion.avif )
 
+### kriptosistem
+#### Simetris
+Simetris kriptosistem disebut juga algoritma kriptografi konvensional karena menggunakan satu key untuk enkrpsi dan dekripsi. kunci yang digunakan untuk enkripsi sama dengan kunci untuk dekrpsi. hal ini membuat kedua belah pihat harus memiliki kunci yang sama persis, jika tidak chipertext tidak akan bisa di buka.
+Jika ada yang memiliki kunci selain pengirim dan penerima maka dia kaan bisa membuka juga dari chipertext. tapi masalahnya bukan bagaimana cara mengirim key agar tidak diketahui orang. masalah yang banyak terjadi adalah manajemen key. dikaranan seitap orang harus memilki key yang sama—bayangkan jika mengirim sebuah pesan menggunakan algoritma simtetris ini ke 100 orang. pengirim harus memiliki key 100 yang berbeda. hal ini sangat merepotkan.
+Tapi sistem ini memiliki sebuah unggulan dalam kecepatan. karena hanya perlu membutuhkan satu key untuk membuka chipertext membuat peroses semakin cepat. kecepatan dekripsi tergantung pada ukuran file juga. semakin besar file semakin lama juga proses dekripsinya.
+#### Asimetris
+Sistem ini adalah kroptografi yang memanfatkan beberapa key agar proses enkripsi dan dekripsi. asimetris ini adalah sebuah pasangan kunci kunci kriprografi yang dipergunakan untuk proses enkripsi dan yang satunya digunaka untuk dekripsi. dengan artian sistem ini memiliki privat key dan public key. orang yang memiliki public key dapat mengenkripsi paintext. yang hanya dapat dekrpsi hanya orang yang memiliki privat key.
+Menggunakan metode ini cenderung lebih lambat dikarenakan proses enkripsi perlu piblic key dan proses dekrpsi hanya bisa dilakukan orang yang memiliki privat key. tapi pososes ini yang menutuku keren. karena perlu memiliki dua key untuk prosesnya.
+aku membaca sebuah jurnal proses asimetris biasanya proses enkripsi key dari metode simetris. karena metode ini lambat maka yang enkripsi key dari metode simetris. 
+
+
 ---
 
 ## 5. Source Code
@@ -108,10 +119,8 @@ Input:
 ---
 
 ## 9. Daftar Pustaka
-(Cantumkan referensi yang digunakan.  
-Contoh:  
-- Katz, J., & Lindell, Y. *Introduction to Modern Cryptography*.  
-- Stallings, W. *Cryptography and Network Security*.  )
+
+- Basri *KRIPTOGRAFI SIMETRIS DAN ASIMETRIS DALAM PERSPEKTIF KEAMANAN DATA DAN KOMPLEKSITAS KOMPUTASI*
 
 ---
 
@@ -120,8 +129,8 @@ Contoh:
 Contoh:
 ```
 commit abc12345
-Author: Nama Mahasiswa <email>
-Date:   2025-09-20
+Author: Bagus Alfiyan Yusuf <bagusalfiyanyusuf@gmail.com>
+Date:   2025-10-13
 
     week2-cryptosystem: implementasi Caesar Cipher dan laporan )
 ```
