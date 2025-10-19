@@ -172,7 +172,7 @@ Contoh:
 ## 10. Commit Log
 
 ```
-commit abc12345
+commit a08a0a9
 Author: Bagus Alfiyan Yusuf <bagusalfiyanyusuf@gmail.com>
 Date:   2025-10-19
 
