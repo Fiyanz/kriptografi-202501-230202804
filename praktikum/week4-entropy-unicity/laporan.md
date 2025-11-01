@@ -108,8 +108,8 @@ Praktikum ini menunjukkan perbedaan signifikan antara algoritma kriptografi klas
 
 ## 10. Commit Log
 ```
-commit [hash]
-Author: [Nama Mahasiswa] <[email]>
+commit 8792441
+Author: [Bagus Afiyan Yusuf] <[Bagus Alfiyan Yusuf]>
 Date:   2025-11-01
 
     week4-entropy-unicity: implementasi perhitungan entropy, unicity distance, dan analisis brute force
