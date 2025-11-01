@@ -224,7 +224,7 @@ Praktikum ini berhasil mengimplementasikan tiga algoritma cipher klasik: Caesar,
 ## 10. Commit Log
 
 ```
-commit [hash_commit]
+commit 45d903d
 Author: Bagus Alfiyan Yusuf [bagusalfiyanyusuf@gmail.com]
 Date:   2025-11-02
 
