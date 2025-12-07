@@ -186,10 +186,9 @@ Praktikum ini berhasil mengimplementasikan tiga algoritma cipher modern: DES, AE
 
 ## 10. Commit Log
 
-```
-commit [hash_commit]
-Author: Bagus Alfiyan Yusuf <bagusalfiyanyusuf@gmail.com>
-Date:   2025-12-07
+`commit` [`c046292`]([https://github.com/Fiyanz/kriptografi-202501-230202804/commit/c0462921ae601db4e56b232cdc493b5eee5288d9](https://github.com/Fiyanz/kriptografi-202501-230202804/commit/c0462921ae601db4e56b232cdc493b5eee5288d9))
+`Author: Bagus Alfiyan Yusuf <bagusalfiyanyusuf@gmail.com>`
+`Date:   2025-12-07`
 
     week6-cipher-modern: implementasi DES, AES, dan RSA
 
@@ -198,4 +197,3 @@ Date:   2025-12-07
     - Tambah implementasi RSA-2048 dengan OAEP padding (src/rsa.py)
     - Tambah laporan praktikum dengan hasil dan pembahasan
     - Tambah screenshot hasil eksekusi program
-```
