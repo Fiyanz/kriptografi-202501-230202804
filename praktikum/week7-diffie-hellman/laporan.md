@@ -271,7 +271,7 @@ Praktikum ini berhasil mengimplementasikan dan mensimulasikan protokol Diffie-He
 ## 10. Commit Log
 
 
-`commit:` [`idcommit`]()  
+`commit:` [ab47c19](https://github.com/Fiyanz/kriptografi-202501-230202804/commit/ab47c1977537befd7a36031d3f3ebfb936600b76)  
 `Author:` Bagus Alfiyan Yusuf <bagusalfiyanyusuf@gmail.com>  
 `Date:`   2025-12-07
 
