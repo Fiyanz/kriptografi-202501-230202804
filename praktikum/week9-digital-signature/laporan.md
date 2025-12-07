@@ -1,9 +1,9 @@
 # Laporan Praktikum Kriptografi
 Minggu ke-: 9  
 Topik: Digital Signature (RSA/DSA)  
-Nama: [Nama Mahasiswa]  
-NIM: [NIM Mahasiswa]  
-Kelas: [Kelas]  
+Nama: Bagus Alfiyan Yusuf  
+NIM: 230202804
+Kelas: 5IKRA  
 
 ---
 
