@@ -660,7 +660,7 @@ Praktikum ini berhasil mengimplementasikan sistem Public Key Infrastructure (PKI
 ## 10. Commit Log
 
 
-`commit:` [hash_commit](https://github.com)
+`commit:` [600d099](https://github.com/Fiyanz/kriptografi-202501-230202804/commit/600d099ad94a736353bb134c1899c11736761aa6)
 `Author:` Bagus Alfiyan Yusuf <bagusalfiyanyusuf@gmail.com>
 `Date:`   2025-12-28
 
