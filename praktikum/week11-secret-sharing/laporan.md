@@ -597,7 +597,7 @@ SSS sangat berguna untuk cryptocurrency wallet management, corporate secret mana
 ## 10. Commit Log
 
 
-`commit:` [hash_commit]()
+`commit:` [b82893e](https://github.com/Fiyanz/kriptografi-202501-230202804/commit/b82893eeb0cc43e64622ba130c8710c1c7e6c811)
 `Author:` Bagus Alfiyan Yusuf <bagusalfiyanyusuf@gmail.com>
 `Date:`   Mon Dec 28 2025
 
