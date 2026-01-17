@@ -1545,7 +1545,7 @@ Blockchain dengan PoW cocok untuk aplikasi yang memerlukan maximum decentralizat
 ## 10. Commit Log
 
 
-`commit` [hash_commit]()
+`commit` [65acfe5](https://github.com/Fiyanz/kriptografi-202501-230202804/commit/65acfe5f6328c3a231a3e7472b518e525e85b656)
 `Author:` Bagus Alfiyan Yusuf <bagusalfiyanyusuf@gmail.com>
 `Date:`   Fri Jan 17 2026
 
