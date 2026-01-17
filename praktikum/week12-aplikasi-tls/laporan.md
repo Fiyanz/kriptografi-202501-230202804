@@ -1495,7 +1495,7 @@ TLS/SSL bukan hanya technical requirement, tetapi ethical imperative untuk prote
 ## 11. Commit Log
 
 
-`commit:` [hash_commit]()
+`commit:` [a3990c9](https://github.com/Fiyanz/kriptografi-202501-230202804/commit/a3990c986059895112655a8de79855527f865f69)
 `Author:` Bagus Alfiyan Yusuf <bagusalfiyanyusuf@gmail.com>
 `Date:`   Fri Jan 17 2026
 
