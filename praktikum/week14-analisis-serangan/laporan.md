@@ -2835,7 +2835,7 @@ Praktikum ini mendemonstrasikan bahwa pemahaman tentang kriptografi bukan hanya 
 ## 11. Commit Log
 
 
-`commit:` [hash]()
+`commit:` [5dcce08](https://github.com/Fiyanz/kriptografi-202501-230202804/commit/5dcce08429ca3c6170420df12bf02f850d9b634a)
 `Author:` Bagus Alfiyan Yusuf <bagusalfiyanyusuf@gmail.com>
 `Date:`   Thu Jan 17 2025
 
